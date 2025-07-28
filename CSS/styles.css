@@ -2,18 +2,25 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
-h2 {
-    color: white;
-    text-align: left;
+main {
+    color: rgb(255, 255, 255);
+
 }
 
-p {
+nav {
+    background-color: #474747;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
 
-    color: white;
-    text-align: left;
+footer {
+    background-color: #474747;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
