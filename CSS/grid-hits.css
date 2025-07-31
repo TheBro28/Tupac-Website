@@ -1,0 +1,33 @@
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+section {
+    grid-area: section;
+}
+
+footer {
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+        "main main main main aside"
+        "section section section section section"
+        "footer footer footer footer footer";
+}
